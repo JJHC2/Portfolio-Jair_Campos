@@ -1,32 +1,42 @@
 [
     {
-        "nombre": "Digitalizacion de los convenios digitales en un sistema Web",
-        "categoria": "fullStack",
+        "nombre": "Digitalización de los convenios digitales en un sistema Web",
+        "categoria": "alfaparf",
         "site": "Privado",
         "github":"Privado",
         "image": ["jaircampos.jpg","Logo.png","Yo.jpg"],
-        "descripcion":" Se creo un sistema web para la digitalizacion de los convenios fisicos en digitales de la empresa DOBOS S.A de C.V. AlfaParf Milano esto ayudo a reducir la carga de trabajo de los encargados",
-        "alt": "Digitalizacion de los convenios digitales en un sistema Web",
-        "tecnologias": ["React", "Node.js", "Express", "MongoDB", "AWS", "Postman","Tailwind CSS"]
+        "descripcion":" Se creo un sistema web para la digitalización de los convenios fisicos en digitales de la empresa DOBOS S.A de C.V. AlfaParf Milano esto ayudo a reducir la carga de trabajo de los encargados",
+        "alt": "Digitalización de los convenios digitales en un sistema Web",
+        "tecnologias": ["React", "Node.js","Java", "Express", "MongoDB", "Postman","Tailwind CSS"]
     },
     {
-        "nombre": "Sistema de gestion de inventarios",
-        "categoria": "fullStack",
+        "nombre": "Sistema de gestión de inventarios",
+        "categoria": "alfaparf",
         "site": "Privado",
         "github":"Privado",
-        "image": "inventarios1.jpg",
+        "image": ["logininv.jpg","viewinv.jpg","hojasalidaview.jpg"],
         "descripcion":" Se desarrollo un sistema web para la gestion de inventarios en AlfaParf Milano, esto ayudo a mejorar el control y seguimiento de los productos en stock.",
         "alt": "Sistema de gestion de inventarios",
         "tecnologias": ["React", "Node.js", "Express", "MySQL", "AWS", "Postman","Tailwind CSS"]
     },
     {
-        "nombre": "Creacion y generacion de Expedientes Clinicos Digitales",
-        "categoria": "fullStack",
+        "nombre": "Creación y generación de Expedientes Clinicos Digitales",
+        "categoria": "uaemex",
         "site": "Privado",
         "github":"Privado",
-        "image": "expedientes1.jpg",
+        "image": ["loginexp.jpg","homeviewexp.jpg","listmediexp.jpg","antpacexp.jpg","modulogeneracionexp.jpg","newconsult.jpg","reposuive.jpg"],
         "descripcion":" Se desarrollo un sistema web para la creacion y gestion de expedientes clinicos digitales para la Universidad Autonoma del Estado de México (UAEMEX), esto ayudo a mejorar la organizacion y acceso a la informacion de los alumnos.",
         "alt": "Creacion y generacion de Expedientes Clinicos Digitales",
         "tecnologias":["Vue Js", "Laravel","MongoDB","GitLab CI/CD","Postman","Tailwind CSS"]
+    },
+    {
+        "nombre":"Sistema de Digitalización de Programas Sociales",
+        "categoria":"gobti",
+        "site":"Privado",
+        "github":"Privado",
+        "image":["loginprog.jpg","homeviewprog.jpg","listprog.jpg","detailprog.jpg","newprog.jpg"],
+        "descripcion":" Se desarrollo un sistema web para la digitalizacion y gestion de programas sociales para el Gobierno del Estado de Michoacán, esto ayudo a mejorar la eficiencia y transparencia en la administracion de los programas.",
+        "alt":"Sistema de Digitalización de Programas Sociales",
+        "tecnologias":["React", "Laravel", "Express", "PostgreSQL", "Postman","Tailwind CSS","Bootstrap"]
     }
 ]

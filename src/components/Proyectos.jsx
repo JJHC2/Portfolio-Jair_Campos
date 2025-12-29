@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import ProjectCard from "./ProjectCard"; // Importamos el componente de arriba
+import ProjectCard from "./ProjectCard";
 
 const Proyectos = () => {
     const [proyectosData, setProyectosData] = useState([]);
@@ -35,23 +35,31 @@ const Proyectos = () => {
                     Una selección de mis trabajos como desarrollador Full Stack.
                 </p>
 
-                {/* Botones de Filtrado Modernos */}
+
                 <div className="flex flex-wrap justify-center mb-16 gap-3">
-                    <button 
+                    <button
                         onClick={() => filterProjects("all")}
                         className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${selectedCategory === "all" ? "bg-yellow-500 text-black shadow-[0_0_20px_rgba(234,179,8,0.3)]" : "bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-yellow-500/50"}`}
                     >
                         Todos los Proyectos
                     </button>
-                    <button 
-                        onClick={() => filterProjects("fullStack")}
-                        className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${selectedCategory === "fullStack" ? "bg-yellow-500 text-black shadow-[0_0_20px_rgba(234,179,8,0.3)]" : "bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-yellow-500/50"}`}
+                    <button
+                        onClick={() => filterProjects("alfaparf")}
+                        className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${selectedCategory === "alfaparf" ? "bg-yellow-500 text-black shadow-[0_0_20px_rgba(234,179,8,0.3)]" : "bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-yellow-500/50"}`}
                     >
-                        Full Stack
+                        AlfaParf Milano
+                    </button>
+                    <button onClick={() => filterProjects("uaemex")}
+                        className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${selectedCategory === "uaemex" ? "bg-yellow-500 text-black shadow-[0_0_20px_rgba(234,179,8,0.3)]" : "bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-yellow-500/50"}`}>
+                        UAEMEX
+                    </button>
+                    <button onClick={() => filterProjects("gobti")}
+                        className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${selectedCategory === "gobti" ? "bg-yellow-500 text-black shadow-[0_0_20px_rgba(234,179,8,0.3)]" : "bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-yellow-500/50"}`}>
+                        Gob-Ti
                     </button>
                 </div>
 
-                {/* Grid Responsivo */}
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {filteredProjects.map((project, index) => (
                         <ProjectCard key={project.nombre || index} project={project} />

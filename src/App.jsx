@@ -4,6 +4,8 @@ import Footer from "./components/Footer"
 import './app.css'
 import About from "./components/About"
 import Proyectos from "./components/Proyectos"
+import Habilities from "./components/Habilities"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
         <Home />
         <About/>
         <Proyectos/>
+        <Habilities/>
+        <Contact/>
         <Footer />
       </div>
     </>

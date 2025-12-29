@@ -2,7 +2,7 @@ import React from "react";
 import { FaReact, FaNode, FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import Jair from "../assets/images/jaircampos.jpg";
-import SkillCards from "./SkillCards";
+import SkillCard from "./SkillCard";
 const Home = () => {
     const skills = [
         {
@@ -53,7 +53,7 @@ const Home = () => {
                         <h5 className="text-slate-800 font-medium max-w-2xl leading-relaxed">Estas son algunas de las tecnologias que e utilizado a largo de mi trayectoria:</h5><br></br>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                             {skills.map((skill, index) => (
-                                <SkillCards
+                                <SkillCard
                                     key={index}
                                     Icon={skill.icon}
                                     name={skill.name}
@@ -63,7 +63,7 @@ const Home = () => {
                             ))}
                         </div>
                     </div>
-                    {/*Poner la imagen a la izquierda responsive y un tamaño adecuado */}
+                
                     <div className="md:w-1/3 mt-8 md:mt-0 flex justify-end border-radius: 50px;">
                         <img src={Jair} alt="Jair Campos - Desarrollador"
                             className="w-full max-w-[350px] h-auto rounded-lg shadow-lg"
