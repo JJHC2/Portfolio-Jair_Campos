@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Digitalizacion de los convenios digitales en un sistema Web",
+        "categoria": "fullStack",
+        "site": "Privado",
+        "github":"Privado",
+        "image": ["jaircampos.jpg","Logo.png","Yo.jpg"],
+        "descripcion":" Se creo un sistema web para la digitalizacion de los convenios fisicos en digitales de la empresa DOBOS S.A de C.V. AlfaParf Milano esto ayudo a reducir la carga de trabajo de los encargados",
+        "alt": "Digitalizacion de los convenios digitales en un sistema Web",
+        "tecnologias": ["React", "Node.js", "Express", "MongoDB", "AWS", "Postman","Tailwind CSS"]
+    },
+    {
+        "nombre": "Sistema de gestion de inventarios",
+        "categoria": "fullStack",
+        "site": "Privado",
+        "github":"Privado",
+        "image": "inventarios1.jpg",
+        "descripcion":" Se desarrollo un sistema web para la gestion de inventarios en AlfaParf Milano, esto ayudo a mejorar el control y seguimiento de los productos en stock.",
+        "alt": "Sistema de gestion de inventarios",
+        "tecnologias": ["React", "Node.js", "Express", "MySQL", "AWS", "Postman","Tailwind CSS"]
+    },
+    {
+        "nombre": "Creacion y generacion de Expedientes Clinicos Digitales",
+        "categoria": "fullStack",
+        "site": "Privado",
+        "github":"Privado",
+        "image": "expedientes1.jpg",
+        "descripcion":" Se desarrollo un sistema web para la creacion y gestion de expedientes clinicos digitales para la Universidad Autonoma del Estado de México (UAEMEX), esto ayudo a mejorar la organizacion y acceso a la informacion de los alumnos.",
+        "alt": "Creacion y generacion de Expedientes Clinicos Digitales",
+        "tecnologias":["Vue Js", "Laravel","MongoDB","GitLab CI/CD","Postman","Tailwind CSS"]
+    }
+]
