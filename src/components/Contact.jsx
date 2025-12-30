@@ -75,7 +75,7 @@ const Contact = () => {
 
                 <div className='mb-16 text-center'>
                     <h2 className='text-4xl md:text-5xl font-extrabold text-white mb-4'>
-                        ¿Hablamos? <span className='text-yellow-500'>Contáctame</span>
+                        Contáctame <span className='text-yellow-500'>📲</span>
                     </h2>
                     <div className="h-1 w-20 bg-yellow-500 mx-auto rounded-full"></div>
                 </div>

@@ -57,6 +57,10 @@ const Proyectos = () => {
                         className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${selectedCategory === "gobti" ? "bg-yellow-500 text-black shadow-[0_0_20px_rgba(234,179,8,0.3)]" : "bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-yellow-500/50"}`}>
                         Gob-Ti
                     </button>
+                    <button onClick={() => filterProjects("escolar")}
+                        className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${selectedCategory === "escolar" ? "bg-yellow-500 text-black shadow-[0_0_20px_rgba(234,179,8,0.3)]" : "bg-zinc-900 text-zinc-400 border border-zinc-800 hover:border-yellow-500/50"}`}>
+                        Escolar
+                    </button>
                 </div>
 
 

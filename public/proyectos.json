@@ -4,7 +4,7 @@
         "categoria": "alfaparf",
         "site": "Privado",
         "github":"Privado",
-        "image": ["jaircampos.jpg","Logo.png","Yo.jpg"],
+        "image": ["loginconv.png","homeconv.png","conv.png"],
         "descripcion":" Se creo un sistema web para la digitalización de los convenios fisicos en digitales de la empresa DOBOS S.A de C.V. AlfaParf Milano esto ayudo a reducir la carga de trabajo de los encargados",
         "alt": "Digitalización de los convenios digitales en un sistema Web",
         "tecnologias": ["React", "Node.js","Java", "Express", "MongoDB", "Postman","Tailwind CSS"]
@@ -34,9 +34,19 @@
         "categoria":"gobti",
         "site":"Privado",
         "github":"Privado",
-        "image":["loginprog.jpg","homeviewprog.jpg","listprog.jpg","detailprog.jpg","newprog.jpg"],
+        "image":["gobti1.png","gobti2.png","gobti3.png","gobti4.png"],
         "descripcion":" Se desarrollo un sistema web para la digitalizacion y gestion de programas sociales para el Gobierno del Estado de Michoacán, esto ayudo a mejorar la eficiencia y transparencia en la administracion de los programas.",
         "alt":"Sistema de Digitalización de Programas Sociales",
         "tecnologias":["React", "Laravel", "Express", "PostgreSQL", "Postman","Tailwind CSS","Bootstrap"]
+    },
+    {
+        "nombre":"Encuesta de Satisfacción de Egresados",
+        "categoria":"escolar",
+        "site":"Privado",
+        "github":"Privado",
+        "image":["encuesta1.png","encuesta2.png","encuesta3.png","Encuesta4.png"],
+        "descripcion":" Se desarrollo un sistema web para la gestion de encuestas de satisfaccion de egresados para la Universidad Tecnologica del Valle de Toluca (UTVT), esto ayudo a mejorar la recopilacion y analisis de datos de los egresados.",
+        "alt":"Encuesta de Satisfacción de Egresados",
+        "tecnologias":["React Js", "Laravel","PostgreSQL","GitLab","Postman","CSS"]
     }
 ]

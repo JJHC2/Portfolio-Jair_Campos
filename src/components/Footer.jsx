@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-primary text-white py-6">
       <div className="container mx-auto px-4 text-center">
         <div className="flex justify-center space-x-6 mb-4">
-         
+
           <a
             href="https://github.com/JJHC2"
             target="_blank"
@@ -37,6 +37,9 @@ const Footer = () => {
             className="hover:text-black underline underline-offset-2">
             Jair Campos
           </a>
+        </p>
+        <p className="text-sm">
+          Basado en elementos de <a href="https://github.com/saam-rgb" className="hover:text-black underline underline-offset-2">saam-rgb</a>, con ajustes y contenido original desarrollados íntegramente por mí.
         </p>
       </div>
     </footer>
