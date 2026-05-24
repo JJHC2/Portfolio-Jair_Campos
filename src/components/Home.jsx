@@ -1,7 +1,7 @@
 import React from "react";
 import { FaReact, FaNode, FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import Jair from "../assets/images/yo.jpg";
+import Jair from "../assets/images/Yo.jpg";
 import SkillCard from "./SkillCard";
 const Home = () => {
     const skills = [
