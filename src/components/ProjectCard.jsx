@@ -21,12 +21,17 @@ const ProjectCard = ({ project }) => {
             
            
             <div className="relative h-80 overflow-hidden bg-black cursor-zoom-in" onClick={() => setIsOpen(true)}>
-                <img
-                    src={getImgUrl(imagenes[currentIdx])}
-                    alt={project.alt || project.nombre}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    loading="lazy"
-                />
+                {imagenes.length > 0 ? (
+                    <img
+                        src={getImgUrl(imagenes[currentIdx])}
+                        alt={project.nombre}
+                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                ) : (
+                    <div className="w-full h-full bg-gradient-to-br from-zinc-800 to-zinc-700 grid place-items-center">
+                        <span className="text-gray-500 text-sm">No hay imagen disponible</span>
+                    </div>
+                )}
 
                 
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity z-10">

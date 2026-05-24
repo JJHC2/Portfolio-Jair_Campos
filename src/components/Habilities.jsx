@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import SkillCard from './SkillCard'
-import { FaReact, FaNode, FaLaravel, FaJava, FaVuejs, FaGitlab, FaBootstrap,FaMicrosoft  } from "react-icons/fa";
+import { FaReact, FaNode, FaLaravel, FaJava, FaVuejs, FaGithub,FaGitlab, FaBootstrap,FaMicrosoft,FaAws,FaFigma,  } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { PiMicrosoftTeamsLogoBold } from "react-icons/pi";
-import { SiMysql, SiPostgresql, SiMongodb, SiJavascript, SiGit, SiHtml5, SiCss3, SiPhp, SiPostman, SiRender, SiHostinger } from "react-icons/si";
+import { SiMysql, SiPostgresql, SiMongodb,SiSpringboot,
+    SiDbeaver, SiIntellijidea,SiJavascript, SiEclipseide,SiGit, SiHtml5, SiCss3, SiPhp, SiPostman, SiRender, SiHostinger,SiJira } from "react-icons/si";
 
 const Habilities = () => {
     const [Skills, setSkills] = useState([]);
@@ -36,7 +37,15 @@ const Habilities = () => {
                     FaBootstrap: FaBootstrap,
                     RiTailwindCssFill: RiTailwindCssFill,
                     FaMicrosoft: FaMicrosoft,
-                    PiMicrosoftTeamsLogoBold: PiMicrosoftTeamsLogoBold
+                    PiMicrosoftTeamsLogoBold: PiMicrosoftTeamsLogoBold,
+                    FaAws: FaAws,
+                    FaFigma: FaFigma,
+                    SiDbeaver: SiDbeaver,
+                    SiIntellijidea: SiIntellijidea,
+                    FaGithub: FaGithub,
+                    SiSpringboot: SiSpringboot,
+                    SiJira: SiJira,
+                    SiEclipseide: SiEclipseide,
                 }
 
                 const skillsWithIcons = data.map(skill => ({

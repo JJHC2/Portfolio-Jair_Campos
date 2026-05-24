@@ -48,5 +48,25 @@
         "descripcion":" Se desarrollo un sistema web para la gestion de encuestas de satisfaccion de egresados para la Universidad Tecnologica del Valle de Toluca (UTVT), esto ayudo a mejorar la recopilacion y analisis de datos de los egresados.",
         "alt":"Encuesta de Satisfacción de Egresados",
         "tecnologias":["React Js", "Laravel","PostgreSQL","GitLab","Postman","CSS"]
+    },
+    {
+        "nombre": "CMS para la gestión de documentación de ingresos",
+        "categoria": "mcllent",
+        "site": "Privado",
+        "github":"Privado",
+        "image": ["mcllentlogo.jpg"],
+        "descripcion":" Se desarrollo un sistema CMS para la gestion de documentación de ingresos, esto ayudo a mejorar la organización y acceso a la informacion de los declaraciones de los proveedores.",
+        "alt": "CMS para la gestión de documentación de ingresos",
+        "tecnologias": ["Spring Boot", "Java", "IntelliJ IDEA", "DBeaver", "Postman","Bootstrap","JSP","AWS(S3)","Azure DevOps","FontAwesome","Figma"]
+    },
+    {
+        "nombre": "ATS(Applicant Tracking System) para la gestión de reclutamiento",
+        "categoria": "mcllent",
+        "site": "Privado",
+        "github":"Privado",
+        "image": ["mcllentlogo.jpg"],
+        "descripcion":" Se desarrollo un sistema ATS para la gestion de reclutamiento, esto ayudo a mejorar la eficiencia y organizacion en el proceso de seleccion de candidatos para la empresa MCLLENT.",
+        "alt": "ATS(Applicant Tracking System) para la gestión de reclutamiento",
+        "tecnologias": ["Angular", "Spring Boot", "Java", "Eclipse", "DBeaver", "Postman","Material Design","AWS(S3)","Azure DevOps","Github","Figma","Jira"]
     }
 ]

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaReact, FaNode, FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import Jair from "../assets/images/jaircampos.jpg";
+import Jair from "../assets/images/yo.jpg";
 import SkillCard from "./SkillCard";
 const Home = () => {
     const skills = [
@@ -43,8 +43,8 @@ const Home = () => {
                             Desarrollador Web Full Stack JR
                         </p>
                         <p className="text-slate-800 font-medium max-w-2xl leading-relaxed">
-                            ✌️¡Hola! Soy Jair Josue Heras Campos un joven desarrollador egresado
-                            cuento con una trayectoria de 1 año 5 meses en el desarrollo web.
+                            ✌️¡Hola! Soy Jair Josue Heras Campos un joven desarrollador
+                            cuento con una trayectoria de 2 años de experiencia en el desarrollo web.
                             Mi especialidad es crear aplicaciones web que cumplan con los
                             estandares modernos asi como con la experiencia del usuario. Me
                             encanta el desarrollo Full Stack y siempre estoy buscando aprender
