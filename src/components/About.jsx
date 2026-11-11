@@ -1,5 +1,5 @@
 import React from "react";
-import Yo from "../assets/images/Yo.jpg";
+import Yo from "../assets/images/fotoyo.jpg";
 
 const About = () => {
     return (
@@ -32,7 +32,7 @@ const About = () => {
                                 terminar mis estudios. Esta experiencia previa me dio la disciplina necesaria para gestionar proyectos reales y entender las necesidades del entorno productivo.
                             </p>
                             <p className="mb-4 text-justify">
-                                Actualmente a mis 22 años, combino esa curiosidad por cómo funcionan las cosas con la capacidad de construir aplicaciones web modernas.
+                                Actualmente a mis 23 años, combino esa curiosidad por cómo funcionan las cosas con la capacidad de construir aplicaciones web modernas.
                                 Tras egresar en abril de 2025, he dedicado estos últimos meses a perfeccionar mi stack tecnológico y a desarrollar proyectos que reflejan
                                 mi compromiso con la calidad y el aprendizaje continuo. Actualmente, estoy en busca una gran oportunidad profesional donde
                                 pueda aportar mi energía,  mi capacidad de adaptación y mis conocimientos en el desarrollo Full Stack."

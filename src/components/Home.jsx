@@ -1,7 +1,7 @@
 import React from "react";
 import { FaReact, FaNode, FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
-import Jair from "../assets/images/Yo.jpg";
+import Jair from "../assets/images/fotoyo.jpg";
 import SkillCard from "./SkillCard";
 const Home = () => {
     const skills = [
@@ -29,7 +29,7 @@ const Home = () => {
             borderColor: "border-yellow-200",
             shadowColor: "text-yellow-500",
         }
-    ];
+    ]; 
 
     return (
         <section className="py-16 md:py-24" id="home">
